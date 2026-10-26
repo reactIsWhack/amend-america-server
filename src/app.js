@@ -5,8 +5,8 @@ const app = express();
 
 const corsOptions = {
     origin: [
-        "http://localhost:5173",
-        "https://amend-america-amendments-page.onrender.com"
+        "https://amend-america-amendments-page.onrender.com",
+        "http://localhost:5173"
     ],
     optionsSuccessStatus: 200
 }
