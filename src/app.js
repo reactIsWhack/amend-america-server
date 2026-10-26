@@ -4,7 +4,10 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-    origin: "http://localhost:5173", // put frontend origin here
+    origin: [
+        "http://localhost:5173",
+        "https://amend-america-amendments-page.onrender.com"
+    ],
     optionsSuccessStatus: 200
 }
 
